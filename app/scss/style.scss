@@ -4,5 +4,23 @@
 @import 'global';
 
 
+.header{
+   padding: 50px 0 45px 0;
+   &__inner{
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+   }
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+}
+
+.menu__list{
+   display: flex;
+}
+
 
 @import 'media';
