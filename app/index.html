@@ -13,13 +13,15 @@
       <div class="large-container">
          <div class="header__inner">
             <a class="logo" href="#">
-               <img src="images/logo.svg" alt="logo">
+               <img class="logo__img" src="images/logo.svg" alt="logo">
                Glee.
             </a>
             <nav class="menu">
                <ul class="menu__list">
                   <li class="menu__list-item">
-                     <a class="menu__list-link" href="#">Home+</a>
+                     <a class="menu__list-link" href="#">Home
+                        <span>+</span>
+                     </a>
                   </li>
                   <li class="menu__list-item">
                      <a class="menu__list-link" href="#">About</a>
@@ -28,7 +30,9 @@
                      <a class="menu__list-link" href="#">Services</a>
                   </li>
                   <li class="menu__list-item">
-                     <a class="menu__list-link" href="#">Pages+</a>
+                     <a class="menu__list-link" href="#">Pages
+                        <span>+</span>
+                     </a>
                   </li>
                   <li class="menu__list-item">
                      <a class="menu__list-link" href="#">News</a>
@@ -39,17 +43,24 @@
                </ul>
             </nav>
             <div class="user-nav">
-               <a class="user-nav__link-search" href="#"></a>
+               <a class="user-nav__link--search" href="#"></a>
                <div class="user-nav__group">
-                  <a class="user-nav__link-like" href="#">
-                     <span class="user-nav__num">0</span>
+                  <a class="user-nav__link user-nav__link--like" href="#">
+                     <span class="user-nav__link-wrapper">
+                        <img class="user-nav__link-img" src="images/icons/heart.png" alt="like icon">
+                        <span class="user-nav__num">0</span>
+                     </span>
                   </a>
-                  <a class="user-nav__link-cart" href="#">
-                     <span class="user-nav__num">0</span>
+                  <span class="user-nav__group-border"></span>
+                  <a class="user-nav__link user-nav__link--cart" href="#">
+                     <span class="user-nav__link-wrapper">
+                        <img class="user-nav__link-img" src="images/icons/cart.svg" alt="cart icon">
+                        <span class="user-nav__num">0</span>
+                     </span>
                   </a>
                </div>
                <button class="user-nav__btn">
-                  <img class="user-nav__btn-img" src="" alt="navigation button" >
+                  <img class="user-nav__btn-img" src="images/nav-btn.png" alt="navigation button">
                </button>
             </div>
          </div>
